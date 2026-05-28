@@ -8,7 +8,7 @@
         body { margin: 0; overflow: hidden; background-color: #000; }
         canvas { display: block; }
         #ui {
-            position: absolute;
+			position: absolute;
             top: 10px;
             left: 10px;
             color: white;
@@ -19,8 +19,20 @@
 		#ui {
 			display: none;
 		}
+		@keyframes bgColorChange {
+			from {
+				background-color: grey;
+			}
+			to {
+				background-color: #4bbda64f;
+			}
+		}
+
+		body {
+			animation: bgColorChange 0.6s forwards;
+		}
     </style>
-  <script type="module" crossorigin src="/brbscreen/assets/index-Bnn5KNhe.js"></script>
+  <script type="module" crossorigin src="/brbscreen/assets/index-TlVlaLtu.js"></script>
 </head>
 <body>
     <div id="ui">

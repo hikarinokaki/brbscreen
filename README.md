@@ -35,7 +35,3 @@ A simple web app displaying a floating 3D model that handles collisions with pro
    - Type `!throw` in your Twitch chat.
    - Press `Space` on your keyboard to test locally.
 
-## Project Structure
-- `index.html`: Entry point and UI.
-- `main.js`: Main logic (Scene, Physics, Twitch, Input).
-- `package.json`: Dependencies and scripts.
